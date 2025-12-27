@@ -4,6 +4,7 @@ members = [
     "chapter_02_guess_game",
     "chapter_03_the_basics",
     "chapter_04_ownership",
-    "chapter_05_structs"
-    # Add new chapters here as you create them
-, "chapter_06_enums"]
+    "chapter_05_structs", 
+    "chapter_06_enums", 
+    "chapter_07_rust_package_system",
+]
