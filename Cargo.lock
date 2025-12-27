@@ -29,6 +29,10 @@ name = "chapter_05_structs"
 version = "0.1.0"
 
 [[package]]
+name = "chapter_06_enums"
+version = "0.1.0"
+
+[[package]]
 name = "colored"
 version = "3.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"

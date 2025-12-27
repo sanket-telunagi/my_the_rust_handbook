@@ -9,7 +9,8 @@
         - take the &self argument
         - these are the functions
 
-
+    mutable structs :
+        - making a struct mutable makes the eniter struct fields mutable
 
 */
 fn main() {
@@ -47,6 +48,8 @@ fn main() {
         rect1.color.0, rect1.color.1, rect1.color.2
     );
 
+    rect1.display_color();
+
     // create the square from it
     let sq1: Rectangle = Rectangle::square(32);
     println!(
@@ -76,6 +79,15 @@ struct Rectangle {
 impl Rectangle {
     fn area(&self) -> u64 {
         self.width * self.height
+    }
+
+    fn display_color(&self) {
+        println!("=====================================");
+        println!("=========== The colors are ==========\n");
+        println!("Red value : {}", self.color.0);
+        println!("Green value : {}", self.color.1);
+        println!("Blue value : {}", self.color.2);
+        println!("\n====================================");
     }
 }
 

@@ -6,4 +6,4 @@ members = [
     "chapter_04_ownership",
     "chapter_05_structs"
     # Add new chapters here as you create them
-]
+, "chapter_06_enums"]
